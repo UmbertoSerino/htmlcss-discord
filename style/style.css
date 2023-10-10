@@ -30,12 +30,6 @@ ul.flex-j-center li{
     font-size: 1rem;
 }
 
-button.login{
-    border-radius: 1px solid black ;
-}
-
-
-
 .container{
     max-width: 1050px;
     /* width: 65 */
@@ -49,7 +43,7 @@ button.login{
 }
 
 .dotted-test{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
 .columns{
@@ -120,14 +114,12 @@ header section.navigation > div{
 }
 
 header section.navigation div.brand,
-header section.navigation nav,
-header section.navigation button.login{
+header section.navigation nav{
     padding: .5rem;
 }
 
 
-section.navigation div.brand,
-section.navigation button.login{
+section.navigation div.brand{
     width: 20%;
 }
 
@@ -137,6 +129,7 @@ section.navigation  nav{
 
 section.navigation  nav ul{
     list-style-type: none;
+    text-align: center;
 }
 
 section.navigation  nav ul li{
@@ -146,20 +139,27 @@ section.navigation  nav ul li{
 
 
 section.navigation button.login{
-    text-align: right;
+    text-align: center;
+    border-radius: 40px;
+    padding: 0 20px;
 }
 
 
 section#jumbo{
     /* height: 300px; */
-    background-color: #00008a;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
     padding: 3rem 0;
+    display: flex;
+    color: white;
 }
 
 div.jumbotron{
     height: 300px;
-    background-color: #ed81ed;
 }
+
+
 
 footer{
     background-color: #23272a;
