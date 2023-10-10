@@ -9,10 +9,16 @@ body{
     font-family: 'Cabin', sans-serif;
 }
 
-.flex-centered{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* SECTION HEADER */
+
+header{
+    background-color: #acd7e5;
+    padding: 0 0 .25rem;
+}
+
+section.navigation{
+    padding: .8rem 0;
+    background-color: #265EE8;
 }
 
 .flex-j-center{
@@ -42,9 +48,77 @@ ul.flex-j-center li{
     margin: 0 auto;
 }
 
-.dotted-test{
-    /* border: 2px dashed black; */
+header section.navigation div.brand,
+header section.navigation nav{
+    padding: .5rem;
 }
+
+section.navigation div.brand{
+    width: 20%;
+}
+
+section.navigation  nav{
+    width: 60%;
+}
+
+section.navigation  nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+section.navigation  nav ul li{
+    /* display: inline-block; */
+    padding: 0 .25rem;
+}
+
+
+section.navigation button.login{
+    text-align: center;
+    border-radius: 40px;
+    padding: 0 20px;
+}
+
+
+section#jumbo{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    padding: 6rem 0;
+    display: flex;
+    color: white;
+}
+
+div.jumbotron{
+    height: 300px;
+}
+
+div.jumbotron h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+p{
+    font-size: 20px;
+}
+
+div.section-text-jumbo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+
+div.section-button-jumbo{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+/* Section MAIN */
 
 .columns{
     padding: 3rem 0;
@@ -55,7 +129,6 @@ ul.flex-j-center li{
 }
 
 .column-big{
-    background-color: #1e8ffe;
     width: 60%;
 }
 
@@ -97,78 +170,7 @@ ul.flex-j-center li{
     background-color: #d2d2d2;
 }
 
-header{
-    background-color: #acd7e5;
-    padding: 0 0 .25rem;
-}
 
-section.navigation{
-    padding: .8rem 0;
-    background-color: #265EE8;
-}
-
-
-header section.navigation > div{
-    /* height: 40px; */
-
-}
-
-header section.navigation div.brand,
-header section.navigation nav{
-    padding: .5rem;
-}
-
-
-section.navigation div.brand{
-    width: 20%;
-}
-
-section.navigation  nav{
-    width: 60%;
-}
-
-section.navigation  nav ul{
-    list-style-type: none;
-    text-align: center;
-}
-
-section.navigation  nav ul li{
-    /* display: inline-block; */
-    padding: 0 .25rem;
-}
-
-
-section.navigation button.login{
-    text-align: center;
-    border-radius: 40px;
-    padding: 0 20px;
-}
-
-
-section#jumbo{
-    height: 300px;
-    background-image: url(../img/jumbo.png);
-    background-position: center;
-    background-size: cover;
-    padding: 3rem 0;
-    display: flex;
-    color: white;
-}
-
-div.jumbotron{
-    height: 300px;
-}
-
-div.jumbotron > h1{
-    font-size: 50px;
-    text-align: center;
-}
-
-div.section-text-jumbo{
-    display: flex;
-    flex-direction: column;
-
-}
 
 footer{
     background-color: #23272a;
