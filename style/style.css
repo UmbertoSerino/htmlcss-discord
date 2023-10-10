@@ -57,7 +57,7 @@ section.navigation div.brand {
     width: 20%;
 }
 
-section.navigation  nav{
+section.navigation nav{
     width: 60%;
 }
 
@@ -68,15 +68,28 @@ section.navigation  nav ul{
 
 section.navigation  nav ul li{
     /* display: inline-block; */
-    padding: 0 .25rem;
+    padding: 0 1rem;
 }
 
 
-section.navigation button.login{
+/* Button */
+
+button{
     text-align: center;
     border-radius: 40px;
-    padding: 0 20px;
-    width: 5rem;
+    padding: 10px 20px;
+}
+
+button.click-download{
+    border-radius: 40px;
+    background-color: #7983F5;
+    color: white;
+    margin-top: 3rem;
+}
+
+.button-browser{
+    background-color: #323338;
+    color: white;
 }
 
 section#jumbo{
@@ -102,6 +115,8 @@ div.jumbotron h1{
 
 p{
     font-size: 20px;
+    line-height: 2rem;
+    padding: 2rem 0;
 }
 
 h1{
@@ -157,6 +172,13 @@ div.big-picture > img{
     width: 100%;
 }
 
+.bg-little-box{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
 .column-70{
     width: 70%;
     height: 500px;
@@ -174,21 +196,18 @@ div.big-picture > img{
     line-height: 2rem;
 }
 
-
-
 .bg-white{
     background-color: white;
 }
 
 .bg-grey{
-    background-color: #d2d2d2;
+    background-color: #F6F6F6;
 }
 
-div.row-ready{
-    background-image: url(../img/stars.svg);
-    height: 5rem;
-}
 
+button.click-download span{
+    font-size: 1rem;
+}
 
 /* Footer */
 footer{
