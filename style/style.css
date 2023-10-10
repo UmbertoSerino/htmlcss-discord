@@ -154,7 +154,6 @@ div.big-picture > img{
 }
 
 .column-70{
-    background-color: #20b1a9 ;
     width: 70%;
     height: 500px;
     text-align: center;
@@ -164,11 +163,12 @@ div.big-picture > img{
     background-color: #ef7f7f;
     height: 500px;
     width: 30%;
+    line-height: 2rem;
 }
 
 .column-quarters{
-    border: 2px dashed white;
     width: calc(100% / 4);
+    line-height: 2rem;
 }
 
 
@@ -209,11 +209,22 @@ div.button{
     padding: .25rem .5rem;
 }
 
+div.column-30 > h1{
+    color: #265EE8;
+    padding-bottom: 3rem;
+}
+
 h4.first-text{
     color: #265EE8;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 h4{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+div.column-30 > img{
+    width: 10%;
+    height: auto;
 }
