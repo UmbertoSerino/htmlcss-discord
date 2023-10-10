@@ -111,12 +111,17 @@ div.section-text-jumbo{
     line-height: 1.5rem;
 }
 
-
 div.section-button-jumbo{
     display: flex;
     justify-content: space-evenly;
  
 }
+
+h1{
+    font-size: 40px;
+
+}
+
 
 /* Section MAIN */
 
@@ -133,8 +138,9 @@ div.section-button-jumbo{
 }
 
 .column-small{
-    background-color: #febfca;
     width: 40%;
+    padding: 2rem 0 0 6rem;
+ 
 }
 
 .column-single{
