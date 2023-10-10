@@ -103,6 +103,10 @@ p{
     font-size: 20px;
 }
 
+h1{
+    font-size: 40px;
+
+}
 div.section-text-jumbo{
     display: flex;
     flex-direction: column;
@@ -117,10 +121,6 @@ div.section-button-jumbo{
  
 }
 
-h1{
-    font-size: 40px;
-
-}
 
 
 /* Section MAIN */
@@ -149,10 +149,15 @@ h1{
     height: 700px;
 }
 
+div.big-picture > img{
+    width: 100%;
+}
+
 .column-70{
     background-color: #20b1a9 ;
     width: 70%;
     height: 500px;
+    text-align: center;
 }
 
 .column-30{
@@ -176,8 +181,13 @@ h1{
     background-color: #d2d2d2;
 }
 
+div.row-ready{
+    background-image: url(../img/stars.svg);
+    height: 5rem;
+}
 
 
+/* Footer */
 footer{
     background-color: #23272a;
 }
@@ -197,4 +207,13 @@ div.button{
     background-color: #feb5c0;
     height: 2rem;
     padding: .25rem .5rem;
+}
+
+h4.first-text{
+    color: #265EE8;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.2rem;
 }
