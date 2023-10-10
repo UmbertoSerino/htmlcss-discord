@@ -25,6 +25,17 @@ body{
     justify-content: space-between;
 }
 
+ul.flex-j-center li{
+    color: white;
+    font-size: 1rem;
+}
+
+button.login{
+    border-radius: 1px solid black ;
+}
+
+
+
 .container{
     max-width: 1050px;
     /* width: 65 */
@@ -99,24 +110,24 @@ header{
 
 section.navigation{
     padding: .8rem 0;
-    background-color: #7ffed3;
+    background-color: #1390d8;
 }
 
 
 header section.navigation > div{
     /* height: 40px; */
-    background-color: goldenrod;
+
 }
 
 header section.navigation div.brand,
 header section.navigation nav,
-header section.navigation div.login{
+header section.navigation button.login{
     padding: .5rem;
 }
 
 
 section.navigation div.brand,
-section.navigation div.login{
+section.navigation button.login{
     width: 20%;
 }
 
@@ -134,7 +145,7 @@ section.navigation  nav ul li{
 }
 
 
-section.navigation div.login{
+section.navigation button.login{
     text-align: right;
 }
 
